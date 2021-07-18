@@ -1,0 +1,17 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    max-width: 114px;
+}
+.bg-dark{
+    background: #242424 !important;
+}
+.navbar .navbar-nav {
+    float: right;
+}
+.navbar-links ul li a{
+    margin-left: auto;
+    color: white !important;
+}
