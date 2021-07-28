@@ -10,19 +10,17 @@
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
 }
-.navbar-links {
-  background: #343a40;
+.nav-item {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
 }
-.navbar-brand img {
-  max-width: 120px;
+.nav-bar-logo {
+  max-width: 200px;
 }
-.custom-links {
-  font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-.custom-links li a:hover {
-  color: #23a657 !important;
+.hero-img-one {
+  max-width: 300px;
+  padding: 20px 0;
 }
 
 /* ______________carousal______________ */
@@ -61,7 +59,11 @@
 .carousal-overlay p {
   color: #ffffff;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 20px;
+  padding: 20px;
+}
+.hero-carousal-des-1 {
+  margin: 0 20px !important;
 }
 .carousal-overlay button {
   font-size: 18px;
@@ -69,6 +71,7 @@
 }
 .carousal-logo {
   padding: 20px 0;
+  width: 600px;
 }
 .carousal-logo i {
   width: 40px;
@@ -108,6 +111,14 @@
   width: inherit;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 599px) {
+  .custom-product {
+    width: 90%;
+    margin: auto;
+    margin-left: -32px;
+  }
 }
 .cumstom-product-img {
   width: 350px;
@@ -157,4 +168,25 @@
 .cumstom-product-heading p:nth-of-type(2) {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* order section  */
+@media all and (max-width: 414px) {
+  #order {
+    background: rgb(211, 209, 209);
+    width: 100%;
+    min-height: 200px;
+  }
+  #order p {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  .context {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
