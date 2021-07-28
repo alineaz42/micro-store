@@ -12,6 +12,8 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!-- offline cdn -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <!-- favicon  -->
     <link
       rel="shortcut icon"
@@ -38,56 +40,56 @@
   </head>
   <body>
     <!---------nav bar------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="./assets/imges/navlogo-green.png"
+          alt=""
+          class="nav-bar-logo"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="navbar-links">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/imges/navlogo-green.png" alt="" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse my-nav-links"
-              id="navbarSupportedContent"
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
             >
-              <ul class="navbar-nav ml-auto mb-2 mb-lg-0 custom-links">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">order</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#"
-                    >external link</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
       </div>
-    </div>
-
+    </nav>
     <!-- hero section  ------------------------------------->
     <div
       id="carouselExampleIndicators"
@@ -120,8 +122,12 @@
           />
           <div class="carousel-des">
             <div class="carousal-overlay">
-              <img src="./assets/imges/navlogo-green.png" alt="logo" />
-              <p>
+              <img
+                class="hero-img-one"
+                src="./assets/imges/navlogo-green.png"
+                alt="logo"
+              />
+              <p class="hero-carousal-des-1">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
                 blanditiis illum! Nesciunt dolore laboriosam magnam, sed ab
                 porro, saepe adipisci ratione blanditiis voluptatum illo ipsum
@@ -253,6 +259,22 @@
 
     <!-- ___________________________________________________________________________ -->
 
+    <!-- order section  -->
+    <section id="order">
+      <div class="container">
+        <div class="col-12 col-md-6 col-xl-6">
+          <p>
+            Free international shipping only <strong>2 days 23:56:21</strong>
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-xl-6">
+          <div class="context">
+            <button class="btn btn-success">ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- bootstrap js cdn -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -269,6 +291,10 @@
       integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
       crossorigin="anonymous"
     ></script>
+    <!-- off line links  -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery-slim.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
     <!-- <script src="./assets/js/script.js"></script> -->
   </body>
 </html>
