@@ -21,8 +21,8 @@
   font-weight: 100;
   text-transform: uppercase;
 }
-.custom-links .navbar-link:hover {
-  color: #23a657;
+.custom-links li a:hover {
+  color: #23a657 !important;
 }
 
 /* ______________carousal______________ */
@@ -84,7 +84,7 @@
 }
 .carousal-logo i:hover {
   background: #23a657;
-  border: 2px solid #23a657;
+  border: 2px solid #07642c;
 }
 .carousal-overlay h1 {
   color: white;
@@ -102,4 +102,59 @@
   font-size: 40px;
   text-align: center;
   padding: 2rem 0;
+}
+
+.custom-product {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+.cumstom-product-img {
+  width: 350px;
+  border-radius: 5px;
+}
+.description {
+  position: relative;
+}
+.description span {
+  width: 350px;
+  height: 234px;
+  background: rgba(0, 0, 0, 0.00001);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  transition: all 0.15s ease-in;
+}
+.description a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
+  transition: all 0.15s ease-in;
+  opacity: 0;
+}
+.description:hover span {
+  background: #07642c8c;
+}
+.description:hover a {
+  font-size: 45px;
+  opacity: 1;
+}
+.cumstom-product-heading {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.cumstom-product-heading p:nth-of-type(1) {
+  color: #07642c;
+  font-size: 18px;
+}
+.cumstom-product-heading p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: bold;
 }
