@@ -171,9 +171,9 @@
 }
 
 /* order section  */
-@media all and (max-width: 414px) {
+@media all and (max-width: 668px) {
   #order {
-    background: rgb(211, 209, 209);
+    background: rgb(230, 228, 228);
     width: 100%;
     min-height: 200px;
   }
@@ -181,12 +181,49 @@
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
   .context {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  #about {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .about-header {
+    text-align: center;
+  }
+  .about-header h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: -5px;
+  }
+  .about-header p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .about-des p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .about-des button {
+    background: #23a657;
+    color: #fff;
+    top: 0;
+    text-decoration: none;
+    margin: 20px auto;
+    margin-left: 40%;
   }
 }
